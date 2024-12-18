@@ -359,6 +359,7 @@ html {
   }
 
   .work-section-content {
+    width: auto;
     gap: 2rem;
     flex-direction: column; /* Stack text and image vertically */
     align-items: center;
