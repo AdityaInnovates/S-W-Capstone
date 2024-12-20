@@ -23,7 +23,6 @@
           <div class="navbar-title">NeonPort</div>
           <button class="hamburger" aria-label="Toggle navigation">
             &#9776;
-            <!-- Hamburger icon -->
           </button>
           <div class="navbar-links">
             <a href="#">Home</a>
@@ -207,17 +206,15 @@
       const closeModal = document.querySelector(".close-modal");
 
       hamburger.addEventListener("click", () => {
-        modal.classList.toggle("active"); // Show modal
+        modal.classList.toggle("active");
       });
 
       closeModal.addEventListener("click", () => {
-        modal.classList.remove("active"); // Hide modal
+        modal.classList.remove("active");
       });
-
-      // Optional: Close modal when clicking outside of it
       window.addEventListener("click", (event) => {
         if (event.target === modal) {
-          modal.classList.remove("active"); // Hide modal
+          modal.classList.remove("active");
         }
       });
     </script>
